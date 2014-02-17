@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RandomPocetakAnimacije : MonoBehaviour {
+public class RandomPocetakAnimacije : MonoBehaviour 
+{
 
 	// Use this for initialization
 	void Start () {
@@ -9,7 +10,8 @@ public class RandomPocetakAnimacije : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
+
 	}
 }

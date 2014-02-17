@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Leti.cs">
+    <Files>
+      <File FileName="Unity.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Leti.cs" Line="11" Column="1" />
+      <File FileName="..\..\..\ucimo\Assets\Scripts\rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RandomPocetakAnimacije.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\ucimo\Assets\Scripts\PlayerControler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UdaracZid.cs" Line="10" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
