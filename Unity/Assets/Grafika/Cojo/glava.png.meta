@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 38f558e24ee2d804e8479caaaa8a4ff8
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: glava_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 446
+        width: 54
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 441
+        width: 51
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 427
+        width: 134
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 427
+        width: 135
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_4
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 157
+        width: 472
+        height: 418
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: glava_5
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 150
+        width: 476
+        height: 426
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: glava_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 248
+        width: 133
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: glava_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 248
+        width: 136
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: glava_8
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 285
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 278
+        width: 52
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 43
+        width: 112
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 27
+        width: 112
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_12
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 25
+        width: 104
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: glava_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 39
+        width: 100
+        height: 211
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
