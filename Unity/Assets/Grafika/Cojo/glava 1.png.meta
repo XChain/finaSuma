@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: b4ecd80b2c233184082c0359295f3683
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: zjenica1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 492
+        width: 54
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: zjenica1.1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 487
+        width: 51
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: zjenica2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 471
+        width: 134
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: zjenica2.1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 471
+        width: 135
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: glava 1_4
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 213
+        width: 482
+        height: 420
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: glava 1_5
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 201
+        width: 480
+        height: 426
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 246
+        width: 116
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko1.1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 239
+        width: 103
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 235
+        width: 114
+        height: 213
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko2.1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 232
+        width: 108
+        height: 211
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: zjenica3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 331
+        width: 55
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: zjenica3.1
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 324
+        width: 52
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 35
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko3.1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 36
+        width: 139
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 106
+        width: 119
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko4.1
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 108
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko5
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 116
+        width: 119
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko6
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 101
+        width: 132
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko6.1
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 93
+        width: 112
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: usta
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 21
+        width: 176
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: usta1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 33
+        width: 161
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: usta 2
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 11
+        width: 162
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: oko5.1
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 119
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
