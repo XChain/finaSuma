@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Leti : MonoBehaviour {
 
-	public Vector3 granica;
-	public GameObject temp;
+	//public Vector3 granica;
+	//public GameObject temp;
 
 	void Start()
 	{
@@ -13,11 +13,8 @@ public class Leti : MonoBehaviour {
 
 	void LateUpdate () 
 	{
-		temp.guiText.text = transform.position.ToString ();
+		//temp.guiText.text = transform.position.ToString ();
 
-		if (transform.position.Equals(granica))
-			transform.Translate(-granica*2);
-		else
-			transform.Translate (new Vector2 (1, 0) * Time.deltaTime);
+		transform.Translate (new Vector2 (1, 0) * Time.deltaTime);
 	}
 }
