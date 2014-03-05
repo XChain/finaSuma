@@ -51,6 +51,7 @@
      <Compile Include="Assets\PravljenjeOblaka.cs" />
      <Compile Include="Assets\Scripts\Leti.cs" />
      <Compile Include="Assets\Scripts\RandomPocetakAnimacije.cs" />
+     <Compile Include="Assets\SlovoClassa.cs" />
      <Compile Include="Assets\UnistiNakon.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
