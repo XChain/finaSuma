@@ -16,7 +16,7 @@ public class GUITastaturaTipka : MonoBehaviour {
 		GUI.Box (_kocka,_slovo.Slovo);
 	}
 
-	public GUITastaturaTipka(string slovo,Rect kocka,bool isButton)
+	public GUITastaturaTipka(char slovo,Rect kocka,bool isButton)
 	{
 		_slovo = new SlovoClassa (slovo);
 		_kocka = kocka;
