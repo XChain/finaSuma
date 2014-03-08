@@ -10,6 +10,7 @@ public class GUITastaturaTipka : MonoBehaviour {
 	public void GUIButton ()
 	{
 		GUI.Button (_kocka, _slovo.Slovo);
+		//GUI.Toggle
 	}
 	public void GUIBox ()
 	{
@@ -26,7 +27,15 @@ public class GUITastaturaTipka : MonoBehaviour {
 	{
 		if (_isButton) 
 		{
-			
+			if(GUI.Button (_kocka, _slovo.Slovo))
+			{
+				Debug.Log(_slovo.Slovo);
+				Destroy(gameObject);
+			}
+		}
+		else
+		{
+			GUIBox();
 		}
 	}
 }

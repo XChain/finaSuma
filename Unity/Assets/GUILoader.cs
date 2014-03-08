@@ -11,6 +11,7 @@ public class GUILoader : MonoBehaviour {
 		//GUI.Box(new Rect(30,10,20,20), "M");
 		//GUI.Box(new Rect(10,30,100,100), "A");
 		UGUI ();
+		
 	}
 
 	void UGUI()

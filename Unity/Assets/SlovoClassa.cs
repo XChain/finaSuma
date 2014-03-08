@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class SlovoClassa : MonoBehaviour,IEquatable<string>{
+public class SlovoClassa : IEquatable<string>{
 
 	string _slovo;
 	bool _vidiSe;
