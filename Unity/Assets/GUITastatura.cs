@@ -4,7 +4,7 @@ using System.Collections;
 public class GUITastatura : MonoBehaviour 
 {
 	//public GameObject _scriptGUIRijec;
-	
+	public GUISkin _skin;
 	public int _paddingIvica = 50;
 	public int _sirinaTastature = 10;
 	public int _odnosNazivnik = 5;
@@ -21,18 +21,28 @@ public class GUITastatura : MonoBehaviour
 			Debug.Log(name);
 			
 			GUIRijec a = (GUIRijec)(GameObject.Find(name).GetComponent("GUIRijec"));
-			a.NadjiSlovo(_tString[broj]);
-			_tString[broj]=" ";
+			if(a.NadjiSlovo(_tString[broj]))
+				_tString[broj]=" ";
+			else
+			{
+				CojoGreska b = (CojoGreska)(GameObject.Find("Cojo").GetComponent("CojoGreska"));
+				b.GreskaSlovo();
+				_tString[broj]=" ";
+			}
+			
 		}
 	}
 	
 	void OnGUI()
 	{
+		GUI.skin = _skin;
 		int sT = 0;		
 		sT = GUI.SelectionGrid(
 			new Rect(_paddingIvica,
 			_odnosBrojnik *Screen.height/_odnosNazivnik -_paddingIvica,Screen.width-2*_paddingIvica,
-			Screen.height/_odnosNazivnik),sT,_tString,_sirinaTastature);
+			Screen.height/_odnosNazivnik),sT,_tString,_sirinaTastature,"button");
+		
+		//sT = GUILayout.SelectionGrid(sT,_tString,_sirinaTastature);
 		
 		if(GUI.changed)
 		{

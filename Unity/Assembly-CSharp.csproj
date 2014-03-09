@@ -46,14 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CojoGreska.cs" />
      <Compile Include="Assets\EkranPostavke.cs" />
      <Compile Include="Assets\GUILoader.cs" />
      <Compile Include="Assets\GUIRijec.cs" />
      <Compile Include="Assets\GUITastatura.cs" />
      <Compile Include="Assets\GUITastaturaTipka.cs" />
      <Compile Include="Assets\Izlaz.cs" />
+     <Compile Include="Assets\KillUd.cs" />
      <Compile Include="Assets\NovaRijec.cs" />
+     <Compile Include="Assets\PozSameAs.cs" />
      <Compile Include="Assets\PravljenjeOblaka.cs" />
+     <Compile Include="Assets\ResizeBackgroundImage.cs" />
      <Compile Include="Assets\RijecClassa.cs" />
      <Compile Include="Assets\Scripts\Leti.cs" />
      <Compile Include="Assets\Scripts\RandomPocetakAnimacije.cs" />

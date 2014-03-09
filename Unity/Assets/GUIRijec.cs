@@ -3,6 +3,7 @@ using System.Collections;
 
 public class GUIRijec : MonoBehaviour {
 
+	public GUISkin _skinRijec;
 	public string _rijec;
 	public int _paddingIvica = 50;
 	public int _sirinaTastature = 10;
@@ -45,11 +46,12 @@ public class GUIRijec : MonoBehaviour {
 	
 	void OnGUI()
 	{
+		//GUI.skin = _skinRijec;
 		int sT = 0;		
 		sT = GUI.SelectionGrid(
 			new Rect(_paddingIvica,
 		         _odnosBrojnikVisina *Screen.height/_odnosNazivnikVisina -_paddingIvica,
 		         Screen.width-2*_paddingIvica,
-		         Screen.height/_odnosNazivnikVisina),sT,_prikazSlova,_sirinaTastature);
+		         Screen.height/_odnosNazivnikVisina),sT,_prikazSlova,_sirinaTastature,"box");
 	}
 }
