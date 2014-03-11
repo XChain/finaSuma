@@ -1,16 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ResizeBackgroundImage.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Meni.cs">
     <Files>
-      <File FileName="Assets\GUITastatura.cs" Line="43" Column="71" />
-      <File FileName="Assets\GUIRijec.cs" Line="35" Column="3" />
-      <File FileName="Assets\CojoGreska.cs" Line="1" Column="1" />
-      <File FileName="Assets\KillUd.cs" Line="1" Column="1" />
-      <File FileName="Assets\PravljenjeOblaka.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUIControle.cs" Line="94" Column="30" />
+      <File FileName="Assets\Meni.cs" Line="56" Column="3" />
+      <File FileName="Assets\SettingsMeni.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUIRijec.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUITastatura.cs" Line="1" Column="1" />
       <File FileName="Assets\Izlaz.cs" Line="1" Column="1" />
-      <File FileName="Assets\EkranPostavke.cs" Line="1" Column="1" />
-      <File FileName="Assets\ResizeBackgroundImage.cs" Line="19" Column="115" />
-      <File FileName="Assets\PozSameAs.cs" Line="15" Column="47" />
+      <File FileName="Assets\Rijec.cs" Line="7" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
